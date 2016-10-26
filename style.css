@@ -1,6 +1,7 @@
 * { margin: 0; padding: 0; }
-#container { width: 1000px; overflow: auto; margin: auto; background-color: none; }
-#header { width: 100%; overflow: auto; background-color: none; border-bottom: 2px solid #42BADD; padding: 20px 0px;}
+#container { width: 1100px; overflow: auto; margin: auto; background-color: none; }
+#line { height: 5px; width: 100%; background-color: #46ABD7; }
+#header { width: 100%; overflow: auto; background-color: none; border-bottom: 2px solid silver; padding: 20px 0px;}
 #header-left { float: left; width: 30%; background-color: none; padding-top: 40px;}
 #header-left h1 { text-transform: capitalize; padding-left: 10px; }
 #header-right {float:right;width: 70%; padding-top: 20px;}
@@ -8,8 +9,8 @@
 .search_form{
 	float: right ; padding: 10px 10px;
 }
-.search_form input { width: 300px; height: 30px; border-radius: 2px; border: 1px solid lightblue;}
-.search_form button { height: 34px; border-radius: 5px;background-color: #46ABD7; border: 1px solid #46ABD7;}
+.search_form input { width: 300px; height: 30px; border-radius: 5px; border: 1px solid silver; background-color: silver; margin-right: 5px;}
+.search_form button { width: 80px; height: 30px; border-radius: 5px;background-color: #46ABD7; border: 1px solid #46ABD7;}
 .nav { padding: 20px 0px; }
 .nav ul { list-style-type: none; float: right;}
 .nav li { padding: 0px 10px; display: inline-block;}
@@ -30,11 +31,11 @@
 #content-center h1 { font-size: 35px;}
 #content-center p { font-style: italic; font-size: 20px; }
 #content-bottom { width: 100%; overflow: auto; }
-.list-image { width: 100%; overflow: auto; }
+.list-image { width: 100%; overflow: auto; margin-bottom: 40px;}
 .top { width: 100%; overflow: auto; }
-.img { display: inline-block; margin: 15px;}
-.img img { width: 300px; height: 200px; background-color: navy; }
-.f-image{ width: 100%; overflow: auto; text-align: center; margin-bottom: 20px;}
+.img { display: inline-block; margin: 12px;}
+.img img { width: 340px; height: 220px; background-color: navy; }
+.f-image{ width: 100%; overflow: auto; text-align: center; margin-bottom: 50px;}
 .f-image button { width: 400px; height: 50px; background-color: #46ABD7; border-radius: 10px; border: 1px solid #46ABD7; }
 .f-image button a { color: white; font-size: 25px; text-decoration: none;}
 
@@ -42,12 +43,14 @@
 #footer { width: 100%; overflow: auto; background-color: #1C1C1C; }
 #footer h2{ text-align: left; color: white; margin: 10px 0px;}
 #footer h3 { color: #44A9B3; }
-#footer p { color: white; }
+#footer p { color: white; font-size: 15px;}
 #footer form { height: 50px; line-height: 50px; padding-left: 50px; }
+#footer form input { background-color: #1C1C1C; border: 2px solid #262626;	}
+#footer form button { color: #46ABD7; background-color: #1C1C1C; font-weight: bold; border: 2px solid #262626; }
 #footer ul { list-style-type: none; }
-#footer ul li { display: inline-block; padding: 10px;}
-#footer ul li img { width: 50px; height: 50px; }
-.footer-left { width: 30%; overflow: auto; float: left; }
+#footer ul li { display: inline-block; padding: 5px;}
+#footer ul li img { width: 40px; height: 40px; }
+.footer-left { width: 28%; overflow: auto; float: left; padding-left: 2%;}
 .footer-center { width: 40%;overflow: auto; float: left; }
 .footer-bottom { width: 30%; overflow: auto; float: left; }
 
